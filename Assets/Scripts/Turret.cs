@@ -6,10 +6,22 @@ public class Turret : MonoBehaviour
 {
     private Transform target;
 
+    [Header("Attributes")]
     public float range = 15f;
+    public float fireRate = 1f;
+    private float fireCountDown = 0;
+
+    [Header("Unity Setup Fields")]
+
+
     public string enemyTag = "Enemy";
+
     public Transform turretHead;
     public float turnSpeed = 10f;
+
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    
     void Start()
     {
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
@@ -27,6 +39,26 @@ public class Turret : MonoBehaviour
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         Vector3 rotation = Quaternion.Lerp(turretHead.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
         turretHead.rotation = Quaternion.Euler(0f, rotation.y, 0);
+
+        if (fireCountDown <= 0)
+        {
+            Shoot();
+            fireCountDown = 1f / fireRate;
+        }
+
+        fireCountDown -= Time.deltaTime;
+    }
+
+    void Shoot()
+    {
+        Debug.Log("Shoot!");
+        GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        bullet bullet = bulletGO.GetComponent<bullet>();
+
+        if (bullet != null)
+        {
+            bullet.Seek(target);
+        }   
     }
 
     void UpdateTarget()
