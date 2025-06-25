@@ -40,6 +40,8 @@ public class bullet : MonoBehaviour
     {
         GameObject effectIns = (GameObject) Instantiate(impactEffect, transform.position, Quaternion.identity);
         Destroy(effectIns, 2);
+        Destroy(target.gameObject);
         Destroy(gameObject);
+        
     }
 }
