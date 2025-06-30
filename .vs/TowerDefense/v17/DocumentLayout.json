@@ -3,27 +3,27 @@
   "WorkspaceRootPath": "E:\\Unity User\\TowerDefense\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\Unity User\\TowerDefense\\assets\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\Unity User\\TowerDefense\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\Unity User\\TowerDefense\\assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\Unity User\\TowerDefense\\assets\\scripts\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\Unity User\\TowerDefense\\assets\\scripts\\buildmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|e:\\unity user\\towerdefense\\assets\\scripts\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|e:\\unity user\\towerdefense\\assets\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|e:\\unity user\\towerdefense\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\Unity User\\TowerDefense\\assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\Unity User\\TowerDefense\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Shop.cs",
               "DocumentMoniker": "E:\\Unity User\\TowerDefense\\Assets\\Scripts\\Shop.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Shop.cs",
@@ -71,25 +71,24 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T15:24:57.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T15:24:57.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BuildManager.cs",
               "DocumentMoniker": "E:\\Unity User\\TowerDefense\\Assets\\Scripts\\BuildManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BuildManager.cs",
               "ToolTip": "E:\\Unity User\\TowerDefense\\Assets\\Scripts\\BuildManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\BuildManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T21:20:35.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Node.cs",
               "DocumentMoniker": "E:\\Unity User\\TowerDefense\\Assets\\Scripts\\Node.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Node.cs",
@@ -102,20 +101,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "bullet.cs",
               "DocumentMoniker": "E:\\Unity User\\TowerDefense\\Assets\\Scripts\\bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\bullet.cs",
               "ToolTip": "E:\\Unity User\\TowerDefense\\Assets\\Scripts\\bullet.cs",
               "RelativeToolTip": "Assets\\Scripts\\bullet.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA5wCoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T18:03:42.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Turret.cs",
               "DocumentMoniker": "E:\\Unity User\\TowerDefense\\Assets\\Scripts\\Turret.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Turret.cs",
@@ -123,8 +122,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Turret.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAwwBYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:44:54.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T20:44:54.847Z"
             },
             {
               "$type": "Document",
