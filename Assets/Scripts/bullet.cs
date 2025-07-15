@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class bullet : MonoBehaviour
 {
+    public int damage = 50;
 
     private Transform target;
 
@@ -69,7 +70,12 @@ public class bullet : MonoBehaviour
 
     void Damage(Transform enemy)
     {
-        Destroy(enemy.gameObject);
+        Enemy e = enemy.GetComponent<Enemy>();
+        if (e != null) 
+        {
+            e.TakeDamage(damage);
+        }
+        
     }
 
     private void OnDrawGizmosSelected()
