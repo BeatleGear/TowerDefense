@@ -12,10 +12,19 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.GameIsOver)
+        {
+            this.enabled = false;
+            return;
+        }
+
+
         if (Input.GetKeyDown(KeyCode.Escape))
             doMovement = !doMovement;
+
         if (doMovement)
             return;
+
         if (Input.GetKey("w") || (Input.mousePosition.y >= Screen.height - panBorderThickness))
         {
             transform.Translate(Vector3.forward * panSpeed * Time.deltaTime, Space.World);
