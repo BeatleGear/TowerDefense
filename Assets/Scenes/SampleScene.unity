@@ -5842,6 +5842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ui: {fileID: 315503892}
   upgradeCost: {fileID: 639184626}
+  sellAmount: {fileID: 1479091646}
   upgradeButton: {fileID: 96154062}
 --- !u!4 &632161108
 Transform:
@@ -5852,7 +5853,7 @@ Transform:
   m_GameObject: {fileID: 632161106}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.24900007, y: 1, z: -0.025000095}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6963,13 +6964,13 @@ MonoBehaviour:
   missileLauncher:
     prefab: {fileID: 3934398143036566325, guid: cfdf96c7b38dc91439487100dbb6c67f, type: 3}
     cost: 250
-    upgradedPrefab: {fileID: 0}
-    upgradeCost: 0
+    upgradedPrefab: {fileID: 3934398143036566325, guid: 7035c5895eb70d9459e11e5574f0bf11, type: 3}
+    upgradeCost: 150
   laserBeamer:
     prefab: {fileID: 3934398143036566325, guid: a191f07130cbe974e9b4375427646fbd, type: 3}
     cost: 350
-    upgradedPrefab: {fileID: 0}
-    upgradeCost: 0
+    upgradedPrefab: {fileID: 3934398143036566325, guid: 3b29cf440a831b94f925caf873899c16, type: 3}
+    upgradeCost: 200
 --- !u!1 &768063625
 GameObject:
   m_ObjectHideFlags: 0
@@ -12232,7 +12233,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1256127978}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 632161107}
+        m_TargetAssemblyTypeName: NodeUI, Assembly-CSharp
+        m_MethodName: Sell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1256127978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13223,6 +13236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buildEffect: {fileID: 4832791081535400540, guid: 36f5729b5986a854987d78c32c8cbbcb, type: 3}
+  sellEffect: {fileID: 4832791081535400540, guid: d0d06e7d7156e264f98cf0f64721fb9b, type: 3}
   nodeUI: {fileID: 632161107}
 --- !u!114 &1424460060
 MonoBehaviour:
