@@ -363,6 +363,7 @@
 "Assets/Scripts/MoneyUI.cs"
 "Assets/Scripts/Node.cs"
 "Assets/Scripts/NodeUI.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerStats.cs"
 "Assets/Scripts/Shop.cs"
 "Assets/Scripts/Turret.cs"
