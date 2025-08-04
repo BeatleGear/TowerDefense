@@ -360,6 +360,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameOver.cs"
 "Assets/Scripts/LivesUI.cs"
+"Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MoneyUI.cs"
 "Assets/Scripts/Node.cs"
 "Assets/Scripts/NodeUI.cs"
