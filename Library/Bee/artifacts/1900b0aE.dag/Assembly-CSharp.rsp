@@ -366,6 +366,7 @@
 "Assets/Scripts/NodeUI.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerStats.cs"
+"Assets/Scripts/SceneFader.cs"
 "Assets/Scripts/Shop.cs"
 "Assets/Scripts/Turret.cs"
 "Assets/Scripts/TurretBlueprint.cs"
