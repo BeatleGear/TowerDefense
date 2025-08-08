@@ -370,6 +370,7 @@
 "Assets/Scripts/Shop.cs"
 "Assets/Scripts/Turret.cs"
 "Assets/Scripts/TurretBlueprint.cs"
+"Assets/Scripts/Wave.cs"
 "Assets/Scripts/WaveSpawner.cs"
 "Assets/Scripts/WayPoints.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

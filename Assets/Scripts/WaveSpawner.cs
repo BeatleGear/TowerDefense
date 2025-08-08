@@ -5,11 +5,15 @@ using TMPro;
 
 public class WaveSpawner : MonoBehaviour
 {
-    public Transform enemyPrefab;
-    public float timeBetweenWaves = 5.5f;
+    public static int EnemyIsAlive = 0;
+
+    public Wave[] waves;
+
     public Transform spawnPoint;
 
-    private float countDown = 2f;
+    public float timeBetweenWaves = 5.5f;    
+
+    private float countDown = 1f;
 
     public TMP_Text countDownText;
 
@@ -17,10 +21,14 @@ public class WaveSpawner : MonoBehaviour
 
     private void Update()
     {
+        if (EnemyIsAlive > 0 )
+            return;
+
         if (countDown <= 0f)
         {
             StartCoroutine( SpawnWave() );
             countDown = timeBetweenWaves;
+            return;
         }
 
         countDown -= Time.deltaTime;
@@ -32,20 +40,27 @@ public class WaveSpawner : MonoBehaviour
 
     IEnumerator SpawnWave()
     {
-        Debug.Log("Wave Incoming");
-
-        waveIndex++;
         PlayerStats.Rounds++;
 
-        for (int i = 0; i < waveIndex; i++)
+        Wave wave = waves[waveIndex];
+
+        for (int i = 0; i < wave.count; i++)
         {
-            SpawnEnemy();
-            yield return new WaitForSeconds(0.5f);
+            SpawnEnemy(wave.enemy);
+            yield return new WaitForSeconds(1f / wave.rate);
+        }
+        waveIndex++;
+
+        if (waveIndex == waves.Length)
+        {
+            Debug.Log("LEVEL WON!");
+            this.enabled = false;
         }
         
     }
-     void SpawnEnemy()
+     void SpawnEnemy(GameObject enemy)
     {
-        Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        Instantiate(enemy, spawnPoint.position, spawnPoint.rotation);
+        EnemyIsAlive++;
     }
 }
