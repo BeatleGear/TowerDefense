@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 using TMPro;
 
@@ -19,6 +18,10 @@ public class WaveSpawner : MonoBehaviour
 
     private int waveIndex = 0;
 
+    private void Start()
+    {
+        EnemyIsAlive = 0;
+    }
     private void Update()
     {
         if (EnemyIsAlive > 0 )

@@ -359,6 +359,7 @@
 "Assets/Scripts/EnemyMovement.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameOver.cs"
+"Assets/Scripts/LevelSelector.cs"
 "Assets/Scripts/LivesUI.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MoneyUI.cs"
